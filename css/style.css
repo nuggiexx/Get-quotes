@@ -1,0 +1,47 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family: 'Palatino Linotype';
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+}
+
+#box {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  padding: 10%;
+}
+
+.quote-img {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 2%;
+}
+
+.buttons {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  font-size: 150%;
+}
+
+#quotes {
+  text-align: center;
+  background-color: #141414;
+}
+
+#tweet {
+  margin-top: 1%;
+}
+
+#myName {
+  text-align: center;
+  background-color: #141414;
+  font-size: 150%;
+  padding-top: 10%;
+}
