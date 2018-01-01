@@ -10,6 +10,10 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
 
+h1 {
+  padding-top: 5%;
+}
+
 #box {
   color: white;
   text-align: center;
