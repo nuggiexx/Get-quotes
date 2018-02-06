@@ -1,13 +1,13 @@
 body {
-  background-color: #141414;
-  color: white;
-  font-family: 'Palatino Linotype';
+  background-color: /*#140011*/ #303030;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+  min-height: 100vh;
 }
 
 hr {
-  border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, rgba(0, 0, 0, 0));
 }
 
 h1 {
@@ -15,10 +15,11 @@ h1 {
 }
 
 #box {
-  color: white;
+  color: #ffffff;
   text-align: center;
-  font-size: 150%;
+  font-size: 4vh;
   padding: 10%;
+  font-family: 'Special Elite', cursive;
 }
 
 .quote-img {
@@ -28,15 +29,16 @@ h1 {
 }
 
 .buttons {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 20px;
-  font-size: 150%;
+  font-size: 3vh;
+  font-family: 'Cinzel', serif;
 }
 
 #quotes {
   text-align: center;
-  background-color: #141414;
+  background-color: #303030;
 }
 
 #tweet {
@@ -45,7 +47,8 @@ h1 {
 
 #myName {
   text-align: center;
-  background-color: #141414;
-  font-size: 150%;
-  padding-top: 10%;
+  background-color: #303030;
+  font-size: 3vh;
+  padding-top: 40%;
+  font-family: 'Homemade Apple', cursive;
 }

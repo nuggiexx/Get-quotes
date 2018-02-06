@@ -5,6 +5,7 @@
     <title>Random Quote Machine</title>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite|Cinzel|Homemade+Apple" rel="stylesheet">
   </head>
 
   <body>
@@ -12,19 +13,25 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     </head>
       <!-- animations above -->
+
     <div id="quote-machine">
       <h1 class="text-center">Get A Quote</h1>
-      <hr>
+      <hr/>
             <!-- Div for quote -->
-      <div id='box'></div>
-      <div id='quotes'> <!--buttons-->
+      <div id='box'><!-- quotes will be in here --></div>
+      <div id='quotes'>
+
+        <!--buttons-->
         <button class="animated tada buttons" onclick=quoteClick()>Quote</button><br/>
         <a id="tweet-link" target="_blank">
           <button class="animated fadeInUp buttons" id='tweet'>Tweet this quote</button>
         </a>
+
       </div>
-      <p id="myName">Made by Ashley Hernandez</p>
+
+      <footer id="myName">Made by Ashley Hernandez</footer>
     </div>
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script type="text/javascript" src="./index.js"></script>
   </body>
